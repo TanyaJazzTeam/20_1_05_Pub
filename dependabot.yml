@@ -10,6 +10,7 @@ updates:
       - dependency-name: remark*
         update-types:
           - version-update:semver-major
+          - fkfkd sdsl
       - dependency-name: node-fetch
         update-types:
           - version-update:semver-major
