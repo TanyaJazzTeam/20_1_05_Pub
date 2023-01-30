@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Много форм</title>
+
+</head>
+<body bgcolor="#a6ebc2">
+	<h3>Какое блюдо будете заказывать?</h3>
+	<form>
+		<span style="background-color: #c2a6eb">Пицца<input type="checkbox" name="pizza" style="margin-left: 50px"></span><br>
+		<span>Хот-дог<input type="checkbox" name="pizza" style="margin-left: 41px"></span><br>
+		<span style="background-color: #c2a6eb">Гамбургер<input type="checkbox" name="pizza" style="margin-left: 23px"></span><br>
+		<span >Попкорн<input type="checkbox" name="pizza" style="margin-left: 34px"></span><br>
+		<span style="background-color: #c2a6eb">Чупа-чупс<input type="checkbox" name="pizza" style="margin-left: 23px"></span><br>
+			<input type="submit" name="" value="Отправить">
+			<input type="reset" value="Очистить">
+	</form>
+	<hr>
+	<h3>Куда доставить заказ?</h3>
+	<form>
+		<font>Имя:</font>
+			<input name="Имя" value="" maxlength="20" size="20"><br>
+		<font>Фамилия:</font>
+			<input name="Фамилия" value="" maxlength="20" size="20"><br>
+		<font>eMail:</font>
+			<input name="eMail" value="" maxlength="20" size="20">
+			<select>
+				<option>@mail.ru</option>
+				<option>@gmail.com</option>
+				<option>@outlook.com</option>
+				<option>@yandex.ru</option>
+				<option>@tut.by</option>
+			</select><br>
+		Улица:<select>
+				<option>Кирова</option>
+				<option>Молодежная</option>
+				<option>Платонова</option>
+				<option>Вокзальная</option>
+				<option>Восточная</option>
+			</select><br>
+		Город:<select>
+				<option>Минск</option>
+				<option>Москва</option>
+				<option>Брест</option>
+				<option>Новосибирск</option>
+				<option>Могилев</option>
+			</select><br>
+			<input type="submit" name="" value="Отправить">
+			<input type="reset" value="Очистить">
+			<hr>
+	</form>
+	<form>
+		<table border style="border-collapse: collapse;">
+		<tr>
+			<td><input type="radio" name="b" checked>Наличными</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="b" checked>Чеком</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="b" checked>Дебитной картой</td>
+		</tr>
+		<tr>
+			<td>
+			<ul style="list-style: none;">
+				<li><input type="radio" name="b" checked>Кредитной картой</li>
+					<ul style="list-style: none;">
+						<li><input type="radio" name="c">MasterCard</li>
+						<li><input type="radio" name="c">Visa</li>
+						<li><input type="radio" name="c">Discovery</li>
+						<li><input type="radio" name="c">American Express</li>
+					</ul>
+			</ul>
+			</td>
+		</tr>
+		</table>
+		<input type="submit" name="" value="Отправить">
+			<input type="reset" value="Очистить">
+	</form>
+
+</body>
+</html>
